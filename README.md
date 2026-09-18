@@ -75,11 +75,6 @@ connections (id, source_port_id -> ports.id, target_port_id -> ports.id)
 
 ## API
 
-### `GET /health`
-```json
-{ "status": "ok" }
-```
-
 ### `GET /canvas`
 Full canvas, every node with its nested ports (value or `null`), and every connection by readable port name.
 ```json
