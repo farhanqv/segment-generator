@@ -1,0 +1,52 @@
+{
+  "nodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "ports": [
+    { "port": "1a",  "value": 100  },
+
+    { "port": "2a",  "value": 90   },
+    { "port": "2b",  "value": 130  },
+
+    { "port": "3a",  "value": 150  },
+
+    { "port": "4a",  "value": 70   },
+
+    { "port": "5a",  "value": 160  },
+
+    { "port": "6a",  "value": null },
+    { "port": "6b",  "value": null },
+    { "port": "6c",  "value": null },
+
+    { "port": "7a",  "value": null },
+    { "port": "7b",  "value": null },
+    { "port": "7c",  "value": null },
+
+    { "port": "8a",  "value": 200  },
+
+    { "port": "9a",  "value": 120  },
+
+    { "port": "10a", "value": 80   },
+
+    { "port": "11a", "value": 150  },
+    { "port": "11b", "value": 100  },
+    { "port": "11c", "value": 300  },
+    { "port": "11d", "value": 60   },
+
+    { "port": "12a", "value": 250  },
+    { "port": "12b", "value": 200  },
+    { "port": "12c", "value": 400  }
+  ],
+
+  "connections": [
+    { "source": "1a",  "target": "2a"  },
+    { "source": "2b",  "target": "6b"  },
+    { "source": "3a",  "target": "6a"  },
+    { "source": "4a",  "target": "7a"  },
+    { "source": "5a",  "target": "7b"  },
+    { "source": "6c",  "target": "12a" },
+    { "source": "7c",  "target": "12b" },
+    { "source": "8a",  "target": "11a" },
+    { "source": "9a",  "target": "11b" },
+    { "source": "10a", "target": "11d" },
+    { "source": "11c", "target": "12c" }
+  ]
+}
